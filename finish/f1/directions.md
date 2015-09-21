@@ -1,5 +1,5 @@
 ### f1
-Create a responsive HTML,CSS  and JS one page website with the start folder as a
+Create a responsive HTML,CSS  and JS one page website with the start folder as a start point for some code snipets
 - Build a one pager website for **a fast food restaurant.**
 - Give it a name of your choice
 - Get images from  here: [Burgers](https://www.google.com/search?q=burgers&es_sm=122&source=lnms&tbm=isch&sa=X&ved=0CAgQ_AUoAmoVChMIh9Obtv-HyAIVyj8UCh27-Q6n&biw=1366&bih=643#q=burgers&tbm=isch&tbs=isz:l) and  [Fast Fod](https://www.google.com/search?q=burgers&es_sm=122&source=lnms&tbm=isch&sa=X&ved=0CAgQ_AUoAmoVChMIh9Obtv-HyAIVyj8UCh27-Q6n&biw=1366&bih=643#tbs=isz:l&tbm=isch&q=fast+food)
