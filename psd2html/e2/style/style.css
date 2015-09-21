@@ -25,8 +25,30 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Poiret One', cursive;
-    /*font-family: 'Slabo 27px', serif;*/
-    /*font-size: 0.7em;*/
     color: #000;
     box-sizing:border-box;
+    background-color: black;
+}
+
+#bg1 {
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#bg1 h1 {
+    font-size: 70px;
+}
+
+#bg1 p {
+    font-size: 1.8em;
+}
+
+#bg1 .text {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 50%;
+
 }
