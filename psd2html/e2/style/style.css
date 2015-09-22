@@ -28,7 +28,7 @@ html, body {
     background-color: black;
 }
 
-#wrapper1, #wrapper2 {
+#wrapper1, #wrapper2, wrapper5 {
     height: 100%;
     width: 100%;
 }
@@ -145,3 +145,42 @@ p {
     height: 360px;
     float: left;
 }
+
+/*<!----Div6: Contact Us ---->*/
+
+#div6 {
+    background-image: url("../assets/assets/c_image.jpg");
+    height: 685px;
+    color: white;
+}
+
+#heading {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#contact-box-top {
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+#contact-box-bottom {
+    height: 300px;
+}
+
+.name-box, .email-box, .email-body {
+    border-style: solid;
+    border-color: #fff;
+}
+
+.name-box, .email-box {
+    height: 65px;
+}
+.email-body {
+    height: 250px;
+
+}
+
+
+
