@@ -22,19 +22,23 @@ font-family: 'Righteous', cursive; */
 
 html, body {
     margin: 0;
-    height: 100%;
-    width: 100%;
     font-family: 'Poiret One', cursive;
     color: #000;
     box-sizing:border-box;
     background-color: black;
 }
 
-#bg1 {
+#wrapper1, #wrapper2 {
     height: 100%;
     width: 100%;
-    color: white;
+}
+
+#bg1 {
+    height: 1000px;
+    width: 100%;
+    background-image: url("../assets/assets/h_img.jpg");
     text-align: center;
+    color: white;
 }
 
 #bg1 h1 {
@@ -49,12 +53,10 @@ html, body {
     position: absolute;
     top: 300px;
     width: 100%;
-    height: 50%;
-
 }
 
 
-    /*<!--Div2:About US-->*/
+/*<!--Div2:About US-->*/
 #div2 {
     height: 400px;
     width: 100%;
@@ -71,14 +73,21 @@ p {
     font-weight: bold;
 }
 
-/*<!--Div3: Services-->*/
+ /*<!--Div3: Services-->*/
+
 #div3 {
+    background-image: url("../assets/assets/s_image.jpg");
     color: white;
-    height: 400px;
+    height: 488px;
+    width: 100%;
     text-align: center;
 }
-.text2 {
+
+#div3.text2 {
     position: absolute;
     top: 100px;
     left: 33%
 }
+
+/*<!--Div4: What we do-->*/
+
