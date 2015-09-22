@@ -55,17 +55,32 @@ html, body {
     width: 100%;
 }
 
-
 /*<!--Div2:About US-->*/
+#div2, #div3, #div4 {
+    top: 30px;
+    height: 488px;
+    position: relative;
+}
+
+.mid {
+    /*aligning vertically*/
+    position: absolute; /*parent div should be relatively positioned*/
+    top: 50%;
+    transform: translate(0, -50%);
+    /*aligning horizontally*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #div2 {
-    height: 400px;
     width: 100%;
     background-color: cornsilk;
     text-align: center;
 }
 
 h3 {
-font-size: 1.6em;
+    font-size: 1.6em;
 }
 
 p {
@@ -78,7 +93,6 @@ p {
 #div3 {
     background-image: url("../assets/assets/s_image.jpg");
     color: white;
-    height: 488px;
     width: 100%;
     text-align: center;
 }
@@ -90,4 +104,8 @@ p {
 }
 
 /*<!--Div4: What we do-->*/
-
+#div4 {
+    width: 100%;
+    background-color: cornsilk;
+    text-align: center;
+}
